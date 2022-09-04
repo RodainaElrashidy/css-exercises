@@ -1,26 +1,56 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .title {
-  font-size: 36px;
-  font-weight: 900;
+    font-size: 36px;
+    font-weight: 900;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+}
+
+.items {
+    display: flex;
+    column-gap: 52px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item-box {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    text-align: center;
+}
+
+
+/* U need to simplify true it gets u the correct result but it's overly complex */
+
+
 /* do not edit this footer */
+
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #eee;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
 }
